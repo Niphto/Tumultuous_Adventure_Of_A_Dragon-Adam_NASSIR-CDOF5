@@ -45,7 +45,7 @@ Valid_choices={#'Fight': "Create a fighting mechanic",
                'Cry': Pitiful_Start,
                'Help': "This is what you can currently do : Fight, Enter the Cage, Run Away, Cry"}
 
-print("You haven't given up and here you are, rewarded by a different sight. A cage that you can't see the top of, bars of metal so wide even five mean couldn't wrap themselves around any of them. Inside, you see ripples, dark and purple ripples. There is no rhythm to them, yet you sense harmony emanating from this strange sight.")
+print("You haven't given up and here you are, rewarded by a different sight. A cage that you can't see the top of, bars of metal so wide even five men couldn't wrap themselves around any of them. Inside, you see ripples, dark and purple ripples. There is no rhythm to them, yet you sense harmony emanating from this strange sight.")
 print("Don't come closer.")
 print("A voice, it's a voice ! You jump up in surprise and glee, you spin around multiple times, searching for the source of this voice. You get dizzy, of course.")
 print("Idiot ! I'm right in front of you.")
