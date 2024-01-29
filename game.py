@@ -68,3 +68,24 @@ while True:
 
   else:
     print("Your choices are meaningless, but some are more than others. Choose again : ", list(Valid_choices.keys()))
+
+class Inventory:
+    def __init__(self):
+        self.items = {}
+
+    def add_item(self, item, quantity=1):
+        self.items[item] = self.items.get(item, 0) + quantity
+
+    def remove_item(self, item, quantity=1):
+        if item in self.items:
+            self.items[item] -= quantity
+            if self.items[item] <= 0:
+                del self.items[item]
+
+    def __str__(self):
+        return f"Inventory: {self.items}"
+
+# Example of usage:
+inventory = Inventory()
+inventory.add_item("Key")
+print(inventory)
